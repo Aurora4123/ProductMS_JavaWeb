@@ -1,0 +1,69 @@
+1.MVC
+model:
+com.inspur.bean ---存放普通javabean(com.inspur.domain,com.inspur.pojo)
+com.inspur.service --存放业务接口
+com.inspur.service.impl --存放业务接口实现类
+com.inspur.dao -----存放持久层接口（跟数据库交互）
+com.inspur.dao.impl -----存放持久层接口（跟数据库交互）
+com.inspur.util -- 一般情况下编写工具类
+
+controller:
+com.inspur.servlet ---存放Servlet，作为控制器
+com.inspur.controller
+
+view:
+
+jsp,html....
+
+
+1.数据表设计
+ create table product(
+   id int primary key auto_increment,
+   name varchar(200),
+   category varchar(20),
+   price double,
+   stock  int,
+   state  int
+ );
+
+
+--修改操作
+1. 根据id（主键）查询
+2. 根据id修改
+
+
+--会话跟踪技术
+1. 重写URL地址
+2. 隐藏域
+3. session会话
+4. Cookie
+
+
+---分页
+当前第几页：
+每页显示条数：手动设置
+总条数： 查询
+是否还有上一页？ 计算判断
+是否还有下一页？计算判断
+当前页的数据？ 查询
+条件？
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
