@@ -10,16 +10,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @Author：齐文勇
- * @Package：com.inspur.dao.impl
- * @Project：ProductMS
- * @name：ProductDAOImpl
- * @Date：2024/10/23 9:18
- * @Filename：ProductDAOImpl
- *
- * 持久层的实现类
- */
+
 public class ProductDAOImpl implements ProductDAO {
     private Connection conn;
     private PreparedStatement pre;
